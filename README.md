@@ -145,22 +145,6 @@ Professional certifications are automatically issued as NFTs when you reach sign
 - **Client Deliverables**: Transparent milestone tracking
 - **Team Objectives**: Coordinate organizational goals
 
-## API Integration
-
-```javascript
-// Example API integration
-const goalManager = new GoalManagerSDK({
-  network: 'mainnet',
-  contractAddress: 'ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM.goal-manager'
-});
-
-// Set a goal
-await goalManager.setGoal({
-  title: "Complete certification",
-  description: "Obtain PMP certification by Q4"
-});
-```
-
 ## Contributing
 
 We welcome contributions from the community. Please read our [Contributing Guidelines](CONTRIBUTING.md) before submitting PRs.
@@ -168,9 +152,3 @@ We welcome contributions from the community. Please read our [Contributing Guide
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Support
-
-- Documentation: [docs.goalmanager.pro](https://docs.goalmanager.pro)
-- Enterprise Support: [enterprise@goalmanager.pro](mailto:enterprise@goalmanager.pro)
-- LinkedIn: [Goal Manager Professional](https://linkedin.com/company/goalmanager)
